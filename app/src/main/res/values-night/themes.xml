@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kosha" parent="Theme.MaterialComponents.DayNight.NoActionBar"><item name="colorPrimaryDark">#121416</item>
+
+    </style>
+  <!-- Base application theme. -->
+    <style name="Base.Theme.Kosha" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimaryDark">#121416</item>
+    </style>
+
+    <style name="MyTransparentBottomSheetDialogTheme" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

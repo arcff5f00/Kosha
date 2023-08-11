@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBE9DC"
+    tools:context=".ramayana.RamayanaActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="119dp"
+            android:fontFamily="@font/neue_regular"
+            android:text="@string/ramayanaContent"
+            android:textColor="#707070"
+            android:textSize="18sp" />
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.example.kosha.utils.BlurLayout
+        android:id="@+id/blurLayout"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@drawable/imgranayana"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="220dp"
+            android:fontFamily="@font/neue_bold"
+            android:text="@string/ramayana"
+            android:textColor="#121416"
+            android:textSize="32sp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </com.example.kosha.utils.BlurLayout>
+
+
+    <ImageButton
+        android:id="@+id/iconArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/left_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.kosha.utils.BlurLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:background="@drawable/blur_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/continueBtn"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/black_circle"
+                app:srcCompat="@drawable/arrow"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/neue_medium"
+                android:lineSpacingExtra="3sp"
+                android:text="@string/read"
+                android:textColor="#707070"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@id/continueBtn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.example.kosha.utils.BlurLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

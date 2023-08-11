@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/dialog_layout">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle"
+            android:foreground="@drawable/cross"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/teaxt_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:fontFamily="@font/neue_medium"
+            android:text="@string/app_name"
+            android:textColor="#f5f5f5"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/menu_top"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/teaxt_head">
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/menu_middle"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/content1">
+
+            <com.app.progresviews.ProgressWheel
+                android:id="@+id/wheelprogress"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                app:barWidth="15dp"
+                app:countText="931,199"
+                app:countTextColor="#ffffff"
+                app:countTextSize="10sp"
+                app:defTextColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:marginBtwText="15dp"
+                app:percentage="20"
+                app:progressColor="#039fbe" />
+
+            <com.app.progresviews.ProgressWheel
+                android:id="@+id/wheelprogress2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:barWidth="15dp"
+                app:countText="931,199"
+                app:countTextColor="#ffffff"
+                app:countTextSize="10sp"
+                app:defTextColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/wheelprogress"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:marginBtwText="15dp"
+                app:percentage="40"
+                app:progressColor="#e8d21d" />
+
+            <com.app.progresviews.ProgressWheel
+                android:id="@+id/wheelprogress3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:barWidth="15dp"
+                app:countText="931,199"
+                app:countTextColor="#ffffff"
+                app:countTextSize="10sp"
+                app:defTextColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/wheelprogress2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:marginBtwText="15dp"
+                app:percentage="60"
+                app:progressColor="#cf1578" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content3"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/menu_bottom"
+            android:layout_marginTop="2.2dp"
+            app:layout_constraintTop_toBottomOf="@id/content2">
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

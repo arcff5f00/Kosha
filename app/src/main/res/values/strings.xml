@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Kosha</string>
+
+    <string name="home">Home</string>
+
+    <string name="one">#1</string>
+    <string name="two">#2</string>
+    <string name="three">#3</string>
+
+    !-- Contents --!
+
+    <string name="gita">The \nBhagavad Gita</string>
+    <string name="gitaAuthor">Vyasa</string>
+    <string name="gitaContent">The Gita is set in a narrative framework of dialogue between Pandava prince Arjuna and his guide and charioteer Krishna. At the start of the dharma yuddha (or the \"righteous war\") between the Pandavas and the Kauravas, Arjuna is preoccupied by a moral and emotional dilemma and despairs about the violence and death the war will cause in the battle against his kin. Wondering if he should renounce the war, he seeks Krishna\'s counsel, whose answers and discourse constitute the Gita. Krishna counsels Arjuna to \"fulfil his Kshatriya (warrior) duty to uphold the dharma\" through Karma (\"action\"). The Krishna–Arjuna dialogues cover a broad range of spiritual topics, touching upon ethical dilemmas and philosophical issues that go far beyond the war that Arjuna faces.</string>
+
+    <string name="ramayana">The \nRamayana</string>
+    <string name="ramayanaAuthor">Valmiki</string>
+    <string name="ramayanaContent">The Rāmāyaṇa is a Sanskrit epic from ancient India, one of the two important epics of Hinduism, known as the Itihasas (history), the other being the Mahābhārata. The epic, traditionally ascribed to the Maharishi Valmiki, narrates the life of Rama, a legendary prince of Ayodhya in the kingdom of Kosala. The epic follows his fourteen-year exile to the forest urged by his father King Dasharatha, on the request of Rama\'s stepmother Kaikeyi; his travels across forests in the Indian subcontinent with his wife Sita and brother Lakshmana, the kidnapping of Sita by Ravana – the king of Lanka, that resulted in war; and Rama\'s eventual return to Ayodhya to be crowned king amidst jubilation and celebration.</string>
+
+    <string name="bharata">The \nMahabharata</string>
+    <string name="bharataContent">The Mahābhārata is one of the two major Sanskrit epics of ancient India in Hinduism, the other being the Rāmāyaṇa. It narrates the struggle between two groups of cousins in the Kurukshetra War and the fates of the Kaurava and the Pāṇḍava princes and their successors. It also contains philosophical and devotional material, such as a discussion of the four \"goals of life\" or puruṣārtha . Among the principal works and stories in the Mahābhārata are the Bhagavad Gita, the story of Damayanti, the story of Shakuntala, the story of Pururava and Urvashi, the story of Savitri and Satyavan, the story of Kacha and Devayani, the story of Rishyasringa and an abbreviated version of the Rāmāyaṇa, often considered as works in their own right.</string>
+
+    !-- Quotes --!
+
+    <string name="quote1">“ A swan can fly only with the help of two wings. One wing is karma (action) and the other wing is knowledge. If there is only one wing, then the other is useless. With the help of one, swan cannot fly. “ <font color='#f5f5f5'>\n\n – Devarata to King Shantanu in Mahabharata</font></string>
+    <string name="author1">– Devarata to King Shantanu in Mahabharata</string>
+
+    <string name="quote2">“ Those who have knowledge of Dharma say that Truth is the highest Dharma. ”<font color='#f5f5f5'>\n\n – Kaikeyi to Dasaratha</font></string>
+    <string name="author2">– Kaikeyi to Dasaratha</string>
+
+    <string name="quote3">“ Grief destroys one’s courage. It destroys one’s learning. It destroys one’s everything. There is no enemy greater than grief. ”<font color='#f5f5f5'>\n\n – Kaikeyi to Dasaratha</font></string>
+    <string name="author3">– Kausalya to Dasratha</string>
+
+    <string name="quote4">“ If you start a work, take rest only after its completion; otherwise, the (incomplete) work will finish you. “<font color='#f5f5f5'>\n\n – Devarata to King Shantanu in Mahabharata</font></string>
+    <string name="author4">– Devarata to King Shantanu in Mahabharata</string>
+
+    <string name="quote5">“ The biggest drawback of anger is that it cannot differentiate between good and bad.  “<font color='#f5f5f5'>\n\n – Bhishma Pitamha to Arjuna</font></string>
+    <string name="author5">– Bhishma Pitamaha to Arjuna</string>
+
+    <string name="quote6">“ Persons who are led by the material conception of life do not know that the aim of life is the realization of the Absolute Truth and they are captivated by the external features of the material world, and therefore they do not know what liberation is. “<font color='#f5f5f5'>\n\n – Lord Krishna to Arjuna in Bhagvad Gita</font></string>
+    <string name="author6">– Lord Krishna to Arjuna in Bhagvad Gita</string>
+
+    <string name="read">Read</string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="menu">Kosha  |  Menu</string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kosha" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimaryDark">#121416</item>
+    </style>
+  <!-- Base application theme. -->
+    <style name="Base.Theme.Kosha" parent="Theme.Material3.DayNight.NoActionBar">
+         Customize your light theme here.
+        <item name="colorPrimaryDark">#121416</item>
+    </style>
+
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="TransparentBottomSheetDialog" parent="Theme.AppCompat">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#99000000</item>
+    </style>
+
+</resources>
